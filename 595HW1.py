@@ -20,4 +20,6 @@ def sincosplot(number_of_pi=2,increment=0.1):
     plt.legend(['sin(x)', 'cos(x)'])  
     plt.show()
 
-sincosplot()
+if __name__ == '__main__':
+    sincosplot()
+
